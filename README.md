@@ -1,3 +1,5 @@
 # bioagent
 Make an agent for a bio poject
- for fun
+# Developer helper  
+## Ollama  
+* install Ollama from `https://ollama.com/download`
