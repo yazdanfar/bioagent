@@ -2,12 +2,12 @@ import requests
 import json
 
 # Set up the base URL for local Ollama API
-url = "http://127.0.0.1:11435/api/chat"
+url = "http://127.0.0.1:11434/api/chat"
 
 # Define the payload (your input prompt)
 
 payload = {
-    "model": "misteral", # model replace here
+    "model": "llama3.2:1b", # model replace here
     "messages": [{"role": "user", "content": "What is Python?"}] 
 }
 
